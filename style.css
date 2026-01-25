@@ -76,7 +76,7 @@ border: none;
 transition: all 300ms ease;
 }
 
-.btn__menu--svg: hover{
+.btn__menu--svg:hover {
 filter: invert(26%) sepia(94%) saturate(7476%) hue-rotate(261deg) brightness(94%) contrast(115%); 
 }
 
@@ -116,14 +116,6 @@ padding-bottom: 4px;
 border-bottom: 2px solid transparent;
 }
 
-h1{
-font-size: 48px;
-font-weight: 700;
-line-height: 1.2;
-margin: 16px 0;
-justify-content: center;
+.h1{
 text-align: center;
-color: #6415ff;
-display: flex;
 }
-
