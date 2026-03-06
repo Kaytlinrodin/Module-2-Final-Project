@@ -1213,10 +1213,9 @@ margin-right: 2px;
 margin-top: 4px;
 }
 
-.fas fa-star{
+.fa-star{
 font-weight: 900;
 color: rgba(246,173,85);
-background-color: rgba(246,173,85);
 }
 
 .testimonial__title{
@@ -1473,6 +1472,21 @@ border-radius: 50%;
 z-index: 2;
 cursor: pointer;
 transition: all 300ms ease;
+}
+
+.fa-facebook{
+color: #fff;
+font-weight: 900;
+}
+
+.fa-twitter{
+color: #fff;
+font-weight: 900;
+}
+
+.fa-youtube{
+color: #fff;
+font-weight: 900;
 }
 
 MOBILE RESPONSIVENESS ↓
