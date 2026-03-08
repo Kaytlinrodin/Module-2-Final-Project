@@ -516,19 +516,21 @@ flex-direction: column;
 }
 
 .value__title{
-display: flex;
+flex-direction: column;
 align-items: center;
 }
 
-.fa-dollar-sign
-.value__img--wrapper{
+.fa-dollar-sign{
 background-color: #9ae6b4;
 border-radius: 200px;
+padding-right: 5px;
+padding-left: 5px;
+display: flex;
 }
 
 .value__img--wrapper{
 border-radius: 50%;
-display: flex;
+flex-direction: column;
 justify-content: center;
 align-items: center;
 width:36px;
@@ -546,17 +548,20 @@ color:#243e63
 margin-top: 16px;
 line-height: 1.6;
 color:#718096;
+flex-direction: column;
 }
 
-.fa-suitcase
-.value__img--wrapper{
+.fa-suitcase{
 background-color: #feb2b2;
 border-radius: 16px;
+padding-right: 5px;
+padding-left: 5px;
+display: flex;
 }
 
 .value__img--wrapper{
 border-radius: 50%;
-display: flex;
+flex-direction: column;
 justify-content: center;
 align-items: center;
 width: 36px;
@@ -565,9 +570,12 @@ height: 36px;
 
 .values__btn{
 background-color: #6415ff;
-padding: 12px 32px;
+padding-right: 32px;
+padding-left: 32px;
+padding-top: 16px;
+padding-bottom: 16px;
 border:none;
-border-radius: 500px;
+border-radius: 50px;
 font-size: 14px;
 color: #fff;
 font-weight: bold;
@@ -575,8 +583,11 @@ transition: all 300ms ease;
 cursor: pointer;
 }
 
+
 .values__img{
 width: 50%;
+display: flex;
+flex-direction: column;
 margin: 0;
 padding: 0;
 box-sizing: border-box;
@@ -585,7 +596,7 @@ color:#243e63;
 
 .row{
 width:100%;
-max-width: 1280px;
+max-width: 1200px;
 margin: 0 auto;
 display: flex;
 flex-direction: column;
