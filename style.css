@@ -520,9 +520,10 @@ display: flex;
 align-items: center;
 }
 
-.value:nth-child(1)
+.fa-dollar-sign
 .value__img--wrapper{
 background-color: #9ae6b4;
+border-radius: 200px;
 }
 
 .value__img--wrapper{
@@ -547,9 +548,10 @@ line-height: 1.6;
 color:#718096;
 }
 
-.value:nth-child(2)
+.fa-suitcase
 .value__img--wrapper{
 background-color: #feb2b2;
+border-radius: 16px;
 }
 
 .value__img--wrapper{
