@@ -501,6 +501,10 @@ max-width:1200px;
 margin:0 auto;
 }
 
+.value-row{
+display: flex;
+}
+
 .values__list{
 margin-left: 0;
 margin-right: 0;
@@ -583,9 +587,13 @@ transition: all 300ms ease;
 cursor: pointer;
 }
 
+.values__img--wrapper{
+width:50%;
+max-width: 1200px;
+}
 
 .values__img{
-width: 50%;
+width: 100%;
 display: flex;
 flex-direction: column;
 margin: 0;
