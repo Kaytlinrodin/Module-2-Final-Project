@@ -150,7 +150,6 @@ width: 100%;
 max-width: 1200px;
 margin: 0 auto;
 display: flex;
-flex-direction: column;
 }
 
 .header__description{
@@ -220,6 +219,9 @@ cursor: pointer;
 
 .header__customers{
 padding-right: 64px;
+margin-top: 16px;
+display: flex;
+opacity: 0.5;
 }
 
 .header__img--container{
@@ -232,17 +234,20 @@ width:60%;
 }
 
 .header__img--wrapper{
-width: 50%;
 display: flex;
+justify-content: flex-end;
 }
 
 .header__img{
+max-width: 512px;
 width: 100%;
 }
+
 
 .header{
 position: relative;
 }
+
 
 .purple{
 color:#6415ff;
@@ -1522,6 +1527,95 @@ font-weight: 900;
 .fa-youtube{
 color: #fff;
 font-weight: 900;
+}
+
+Change your landing section to this
+
+
+
+        <header>
+<div class="container">
+<div class="row">
+<div class="header__description">
+<h1 class="header__title">Beautiful React Templates<span class="purple"> for you</span></h1>
+<p class="header__description--para">Our templates are easy to setup, understand and customize. Fully modular components with a variety of pages and components.</p>
+<div class="header__email">
+<input type="text" class="header__email--input" placeholder="Your email address">
+<button class="header__btn--email">Get Started</button>
+</div>
+<p class="header__customers--title">OUR TRUSTED CUSTOMERS</p>
+<img src="assets/customers-logo-strip.680ac7c2e8ae28161d2c.png" class="header__customers">
+</div>
+<div class="header__img--container">
+<div class="header__img--row">
+<figure class="header__img--wrapper">
+<img src="assets/design-illustration-2.6da6a00b20c07c4a9b65d1870679e1b8.svg" class="header__img">
+</figure>
+</div>
+</div>
+</div>
+</div>
+</header>
+
+Then add this to your CSS
+
+
+
+
+/* Landing hero layout fix */
+
+#landing header .row {
+display: flex;
+flex-direction: row;
+align-items: center;
+justify-content: space-between;
+gap: 48px;
+}
+
+#landing .header__description {
+width: 50%;
+max-width: 560px;
+}
+
+#landing .header__img--container {
+width: 50%;
+padding: 0;
+display: flex;
+justify-content: flex-end;
+}
+
+#landing .header__img--row {
+width: 100%;
+display: flex;
+justify-content: flex-end;
+}
+
+#landing .header__img--wrapper {
+width: 100%;
+max-width: 560px;
+}
+
+#landing .header__img {
+display: block;
+width: 100%;
+height: auto;
+}
+
+@media (max-width: 1024px) {
+#landing header .row {
+flex-direction: column;
+gap: 32px;
+}
+
+#landing .header__description,
+#landing .header__img--container {
+width: 100%;
+max-width: 640px;
+}
+
+#landing .header__img--container,
+#landing .header__img--row {
+justify-content: center;
 }
 
 MOBILE RESPONSIVENESS ↓
