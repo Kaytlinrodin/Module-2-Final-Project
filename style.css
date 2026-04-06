@@ -1256,13 +1256,18 @@ align-items: center;
 margin-top: 40px;
 }
 
-.testimonial__container{
+.container{
 width: 100%;
 }
 
-.testimonial__row{
+.row{
 display: flex;
 flex-direction: row;
+}
+
+.testimonial__img--wrapper,
+.testimonial__description{
+width: 50%;
 }
 
 
