@@ -1270,12 +1270,8 @@ width: 50%;
 }
 
 .testimonial__img{
-width: 80px;
-height: 80px;
-border-radius: 50%;
+width: 100%;
 }
-
-
 
 .testimonial__rating{
 color: rgba(246,173,85);
@@ -1324,12 +1320,14 @@ display: flex;
 align-items: center;
 }
 
-.testimonial profile__img--wrapper{
+.testimonialprofile__img--wrapper{
 width: 50%;
 }
 
-.testimonial profile__img{
-width: 50%;
+.testimonialprofile__img{
+width: 80px;
+height: 80px;
+border-radius: 50%;
 }
 
 .testimonial__details{
