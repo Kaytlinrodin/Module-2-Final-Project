@@ -1490,9 +1490,9 @@ FOOTER ↓
   align-items: center;
 }
 
-.footer___logo--img {
-  height:5px;
-  width:5px;
+.footer__logo--img {
+  height: 32px;
+  width: 32px;
 }
 
 .footer__logo--text {
