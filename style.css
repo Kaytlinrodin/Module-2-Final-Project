@@ -1435,7 +1435,7 @@ FOOTER ↓
   overflow: hidden;
 }
 
-.row footer__row {
+.footer__row {
   width: 100%;
   max-width: 1280px;
   margin: auto 0;
@@ -1482,6 +1482,7 @@ FOOTER ↓
   display: flex;
   justify-content: space-between;
   align-items: center;
+  gap: 50px;
 }
 
 .footer__logo {
@@ -1490,11 +1491,11 @@ FOOTER ↓
 }
 
 .footer___logo--img {
-  height: 32px;
-  width: 32px;
+  height:5px;
+  width:5px;
 }
 
-.footer__copyright {
+.footer__logo--text {
   color: #f7fafc;
   font-size: 20px;
   font-weight: 900;
@@ -1502,10 +1503,11 @@ FOOTER ↓
   letter-spacing: 0.05em;
 }
 
-.footer__company {
+.footer__copyright {
   color: #f7fafc;
   font-size: 16px;
   font-weight: 500;
+  align-items: center;
 }
 
 .footer__socials {
@@ -1516,8 +1518,8 @@ FOOTER ↓
 
 .footer__social--link {
   margin-left: 16px;
+  background-color: #f7fafc;
   padding: 8px;
-  background: #f7fafc;
   display: flex;
   justify-content: center;
   border-radius: 50%;
@@ -1527,17 +1529,17 @@ FOOTER ↓
 }
 
 .fa-facebook {
-  color: #fff;
+  color: rgb(100, 21, 255);
   font-weight: 900;
 }
 
 .fa-twitter {
-  color: #fff;
+  color: rgb(100, 21, 255);
   font-weight: 900;
 }
 
 .fa-youtube {
-  color: #fff;
+  color: rgb(100, 21, 255);
   font-weight: 900;
 }
 
