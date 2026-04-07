@@ -1435,7 +1435,7 @@ FOOTER ↓
   overflow: hidden;
 }
 
-.footer__row {
+.row .footer__row {
   width: 100%;
   max-width: 1280px;
   margin: auto 0;
