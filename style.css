@@ -1457,10 +1457,10 @@ FOOTER ↓
     opacity: 0.5;
 }
 
-.row footer__row {
+.row .footer__row {
   width: 100%;
   max-width: 1280px;
-  margin: auto 0;
+  margin: 0 auto;
 }
 
 .footer__columns {
