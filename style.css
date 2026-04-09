@@ -21,20 +21,22 @@
   padding: 96px 0;
 }
 
+.nav__row {
+  display: flex;
+  justify-content: space-between;
+}
+
 .row {
   width: 100%;
   max-width: 1200px;
   margin: 0 auto;
 }
 
-.landing-row {
-  display: flex;
-}
+
 
 .nav {
   display: flex;
-  justify-content: space-between;
-  align-items: center;
+padding-top: 32px;
 }
 
 .nav__logo {
