@@ -8,12 +8,12 @@
   color: #243e63;
 }
 
-.body {
+body {
   max-width: 100vw;
   overflow-x: hidden;
 }
 
-.section {
+section {
   padding: 0 32px;
 }
 
@@ -33,7 +33,7 @@
 }
 
 .nav {
-  display: flex;
+display: flex;
 padding-top: 32px;
 }
 
