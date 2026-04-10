@@ -124,14 +124,6 @@ padding-top: 32px;
   right: 18px;
 }
 
-.nav__link--primary {
-  margin-top: 2px;
-  color: #fff;
-  background-color: #6415ff;
-  line-height: 1.5;
-  width: auto;
-}
-
 .nav__link {
 font-size: 14px;
 font-weight: 600;
@@ -1264,6 +1256,17 @@ plan:nth-child(3) .plan__name {
   letter-spacing: 0.05px;
 }
 
+.plans__blob {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  transform: translateX(-50%) translateY(50%) scaleX(1) scaleY(1);
+  width: 256px;
+  height: 256px;
+  z-index: -10;
+  opacity: 0.25;
+}
+
 #start.row {
   position: relative;
   overflow: hidden;
@@ -1282,18 +1285,21 @@ plan:nth-child(3) .plan__name {
   align-items: center;
 }
 
-.testimonials {
-  margin-top: 40px;
+section{
+  padding: 0 32px;
 }
+
 
 #testimonials .container {
     padding-top: 6rem;
     padding-bottom: 6rem;
 }
 
-.row{
-width: 100%;
+.container {
+padding: 96px 0;
 }
+
+
 
 .testimonial__img--wrapper {
   width: 50%;
