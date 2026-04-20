@@ -1395,6 +1395,11 @@ margin-top: 40px;
   position: relative;
 }
 
+#start .row {
+position: relative;
+overflow:hidden;
+}
+
 .row {
   width: 100%;
   max-width: 1280px;
@@ -1412,14 +1417,13 @@ margin-top: 40px;
 }
 
 .start__row {
-  width: 100%;
-  margin: auto 0;
-  max-width: 1024px;
-  padding: 0 32px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  overflow: hidden;
+width: 100%;
+    margin: 0 auto;
+    max-width: 1024px;
+    padding: 0 32px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .start__title {
