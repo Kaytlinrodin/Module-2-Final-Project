@@ -146,6 +146,11 @@ width: 100%;
     border: none;
 }
 
+.menu--open .btn__menu--close {
+visibility: visible;
+opacity: 1;
+}
+
 .nav__button {
   margin: 0;
   padding: 12px 32px;
@@ -1041,6 +1046,14 @@ START TO CALL ACTION ↓
 
 .plan__button {
   background: rgb(56, 178, 172);
+  ransition: all 300ms ease;
+    width: 100%;
+    border-radius: 9999px;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    font-size: 0.875rem;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
 }
 
 .plan:nth-child(2) {
@@ -1254,7 +1267,8 @@ plan:nth-child(3) .plan__name {
   padding-bottom: 2rem;
 }
 
-.plan:nth-child(3) .plan__button {
+.plan:nth-child(3) .plan__button,
+ .plan__stripe:nth-child(3) {
   color: #f7fafc;
   background: linear-gradient(
     115deg,
