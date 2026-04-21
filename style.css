@@ -1884,7 +1884,26 @@ MOBILE RESPONSIVENESS ↓
   }
 }
 
+@media (max-width: 640px) {
+    .container {
+        padding: 80px 0px;
+    }
+    #features .section__title, #pricing .section__title {
+        font-size: 36px;
+    }
+}
 
+@media (max-width: 768px) {
+    .features {
+        justify-content: center;
+    }
+}
+
+@media (max-width: 1024px) {
+    .features {
+        max-width: 768px;
+    }
+}
 
 
 
