@@ -200,8 +200,8 @@ header .row {
 .header__email {
   width: 100%;
   max-width: 448px;
-  height: 68px;
   position: relative;
+  height: 64px;
   display: flex;
   justify-content: flex-end;
   align-items: center;
@@ -217,7 +217,8 @@ header .row {
   top: 0;
   bottom: 0;
   z-index: 1;
-  padding: 20px 5px;
+ border: 2px solid rgb(229, 231, 235);
+  padding: 0 32px;
 }
 
 .header__email--btn {
@@ -308,11 +309,8 @@ main {
   color: #6415ff;
   letter-spacing: 1.6px;
   font-weight: 700;
-  align-items: center;
-  margin-bottom: 16px;
-  justify-content: center;
-  display: flex;
-  text-align: center;
+  font-size: 16px;
+  text-transform: uppercase;
 }
 
 .section__title {
@@ -322,6 +320,7 @@ main {
   line-height: 1.5;
   margin: 16px 0;
   letter-spacing: 0.025em;
+  text-align: center;
 }
 
 .section__para {
@@ -330,6 +329,7 @@ main {
   color: #7c8ba1;
   line-height: 1.6;
   text-align: center;
+  max-width: 576px;
 }
 
 .container {
@@ -338,10 +338,15 @@ main {
   display: flex;
 }
 
+#features {
+  position: relative;
+}
+
 .feature__row {
   width: 100%;
   max-width: 1200px;
   margin: 0 auto;
+  display: flex;
 }
 
 .features {
@@ -358,9 +363,22 @@ main {
   color: #243e63;
 }
 
+#features .row__narrow {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.row__narrow {
+    width: 100%;
+    max-width: 1024px;
+    margin: 0 auto;
+}  
+
 .feature__row {
   display: flex;
  align-items: flex-start;
+ padding: 32px 24px;
 }
 
 .feature__img--wrapper {
@@ -392,7 +410,7 @@ main {
 .feature__para {
   margin-top: 16px;
   font-size: 16px;
-  max-width: calc(100% / 3);
+  max-width: calc(634px / 3);
   line-height: 1.5;
   color: rgb(124, 139, 161);
   font-weight: 500;
@@ -918,11 +936,12 @@ START TO CALL ACTION ↓
 }
 
 .section__tag {
-  color: #6415ff;
-  font-weight: 700;
-  margin-bottom: 16px;
-  align-items: center;
-  font-size: 16px;
+ font-size: 16px;
+    color: #6415ff;
+    letter-spacing: 1.6px;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 16px;
 }
 
 .section__title {
@@ -2388,5 +2407,14 @@ align-items: center;
   .steps__img--wrapper {
     margin: 0;
   }
+}
+
+@media (max-width: 640px) {
+    .header__email--input {
+        position: static;
+        padding: 16px 0;
+        padding-left: 32px;
+        line-height: 1.5;
+    }
 }
 
